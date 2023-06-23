@@ -13,7 +13,7 @@ namespace AppEntityCore.Models
         public int? CategoriaId { get; set; }
         public Categoria? Categoria { get; set; }
 
-        //Conexion con etiqueta
+        //Conexion con etiquet
         public ICollection <ArticuloEtiqueta>? ArticuloEtiqueta { get; set;}
 
     }
